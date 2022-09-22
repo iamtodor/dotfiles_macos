@@ -90,6 +90,7 @@ plugins=(
     poetry
     terraform
     virtualenv
+    wakatime
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
