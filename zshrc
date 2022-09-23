@@ -117,6 +117,12 @@ export PATH="$HOME/Library/Python/3.8/bin:$PATH"
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 export PATH="$PATH:$GEM_HOME/bin"
 
+# bat config
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+batdiff() {
+    git diff --name-only --relative --diff-filter=d | xargs bat --diff
+}
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/programming/tools/google-cloud-sdk_280/path.zsh.inc" ]; 
   then . "$HOME/programming/tools/google-cloud-sdk_280/path.zsh.inc"; 
