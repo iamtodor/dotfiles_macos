@@ -117,6 +117,9 @@ export PATH="$HOME/Library/Python/3.8/bin:$PATH"
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 export PATH="$PATH:$GEM_HOME/bin"
 
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
 # bat config
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 batdiff() {
