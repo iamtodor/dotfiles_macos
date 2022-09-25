@@ -29,6 +29,8 @@ brew "hashicorp/tap/terraform"
 cask "authy"
 # Menu bar icon organizer
 cask "bartender"
+# Screen color temperature controller
+cask "flux"
 # Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 # Free and open-source media player
