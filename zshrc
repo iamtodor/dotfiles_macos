@@ -126,6 +126,8 @@ batdiff() {
     git diff --name-only --relative --diff-filter=d | xargs bat --diff
 }
 
+export HOMEBREW_CASK_OPTS="--no-quarantine"
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/programming/tools/google-cloud-sdk_280/path.zsh.inc" ]; 
   then . "$HOME/programming/tools/google-cloud-sdk_280/path.zsh.inc"; 
