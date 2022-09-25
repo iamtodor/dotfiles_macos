@@ -1,3 +1,4 @@
+tap "eth-p/software"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -23,6 +24,8 @@ brew "tree"
 brew "wget"
 # Yet Another Dotfiles Manager
 brew "yadm"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 # Terraform
 brew "hashicorp/tap/terraform"
 # Two-factor authentication software
@@ -33,17 +36,21 @@ cask "bartender"
 cask "flux"
 # Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
+# Client for the Google Drive storage service
+cask "google-drive"
 # Free and open-source media player
 cask "iina"
+# Cloud storage client
+cask "onedrive"
 # Collaboration platform for API development
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Messaging app with a focus on speed and security
+cask "telegram"
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 mas "Flow", id: 1423210932
 mas "Lightshot Screenshot", id: 526298438
-mas "OneDrive", id: 823766827
 mas "Polyglot", id: 1471801525
-mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
