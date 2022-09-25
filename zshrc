@@ -146,6 +146,7 @@ alias act="source venv/bin/activate"
 alias base_env="source $HOME/programming/tools/venv/bin/activate"
 alias jl="jupyter lab"
 alias ls="ls -lAFh"
+alias exa="exa -laFh --git"
 
 ## docker
 alias dps="docker ps -a"
