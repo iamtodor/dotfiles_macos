@@ -120,12 +120,6 @@ export PATH="$PATH:$GEM_HOME/bin"
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
-# bat config
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-batdiff() {
-    git diff --name-only --relative --diff-filter=d | xargs bat --diff
-}
-
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # The next line updates PATH for the Google Cloud SDK.
@@ -147,6 +141,7 @@ alias base_env="source $HOME/programming/tools/venv/bin/activate"
 alias jl="jupyter lab"
 alias ls="ls -lAFh"
 alias exa="exa -laFh --git"
+alias man="batman"
 
 ## docker
 alias dps="docker ps -a"
