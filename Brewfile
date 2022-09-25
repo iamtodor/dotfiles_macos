@@ -27,6 +27,8 @@ brew "yadm"
 brew "hashicorp/tap/terraform"
 # Two-factor authentication software
 cask "authy"
+# Menu bar icon organizer
+cask "bartender"
 # Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 # Free and open-source media player
@@ -37,6 +39,7 @@ cask "postman"
 cask "rectangle"
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
+mas "Flow", id: 1423210932
 mas "Lightshot Screenshot", id: 526298438
 mas "OneDrive", id: 823766827
 mas "Polyglot", id: 1471801525
