@@ -32,6 +32,8 @@ brew "hashicorp/tap/terraform"
 cask "authy"
 # Menu bar icon organizer
 cask "bartender"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Screen color temperature controller
 cask "flux"
 # Developer targeted fonts with a high number of glyphs
