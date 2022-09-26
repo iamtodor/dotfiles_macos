@@ -112,6 +112,11 @@ plugins=(
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Write Handy Functions
+function mkcd() {
+  mkdir -p "$@" && cd "$_";
+}
+
 # export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 export PATH="$HOME/Library/Python/3.8/bin:$PATH"
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
@@ -157,11 +162,6 @@ alias zshconfigcat="cat ~/.zshrc"
 alias zshconfigcode="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias update="source ~/.zshrc"
-
-# Write Handy Functions
-function mkcd() {
-  mkdir -p "$@" && cd "$_";
-}
 
 ## git
 unalias glog
