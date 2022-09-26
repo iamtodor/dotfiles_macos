@@ -14,6 +14,7 @@
    ~/.zshrc: zshrc
    ~/.gitconfig: config/gitconfig
    ~/.config/karabiner/karabiner.json: config/karabiner.json
+   ~/.config/bat/config: config/batconfig
     
 
 # - create:
