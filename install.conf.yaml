@@ -12,7 +12,7 @@
 #    ~/.tmux.conf: tmux.conf
 #    ~/.vim: vim
    ~/.zshrc: zshrc
-   ~/.gitconfig: gitconfig
+   ~/.gitconfig: config/gitconfig
    ~/.config/karabiner/karabiner.json: config/karabiner.json
     
 
