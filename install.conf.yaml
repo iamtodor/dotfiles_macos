@@ -13,6 +13,7 @@
 #    ~/.vim: vim
    ~/.zshrc: zshrc
    ~/.gitconfig: gitconfig
+   ~/.config/karabiner/karabiner.json: config/karabiner.json
     
 
 # - create:
