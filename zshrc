@@ -144,9 +144,12 @@ source $ZSH/oh-my-zsh.sh
 alias act="source venv/bin/activate"
 alias base_env="source $HOME/programming/tools/venv/bin/activate"
 alias jl="jupyter lab"
+
+## general
 alias ls="ls -lAFh"
 alias exa="exa -laFh --git"
 alias man="batman"
+alias bbd="brew bundle dump --describe --force"
 
 ## docker
 alias dps="docker ps -a"
