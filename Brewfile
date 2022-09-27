@@ -14,6 +14,8 @@ brew "git"
 brew "htop"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Pager program similar to more
+brew "less"
 # Mac App Store command-line interface
 brew "mas"
 # Simplified and community-driven man pages
@@ -32,6 +34,8 @@ brew "hashicorp/tap/terraform"
 cask "authy"
 # Menu bar icon organizer
 cask "bartender"
+# Desktop password and login vault
+cask "bitwarden"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Screen color temperature controller
