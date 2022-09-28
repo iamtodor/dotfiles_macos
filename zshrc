@@ -150,6 +150,8 @@ alias ls="ls -lAFh"
 alias exa="exa -laFh --git"
 alias man="batman"
 alias bbd="brew bundle dump --describe --force"
+# used to see all variables in $PATH in readable way
+alias trail='<<<${(F)path}'
 
 ## docker
 alias dps="docker ps -a"
