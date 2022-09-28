@@ -34,8 +34,6 @@ brew "hashicorp/tap/terraform"
 cask "authy"
 # Menu bar icon organizer
 cask "bartender"
-# Desktop password and login vault
-cask "bitwarden"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Screen color temperature controller
