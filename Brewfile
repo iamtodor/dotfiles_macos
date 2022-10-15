@@ -44,6 +44,8 @@ cask "font-hack-nerd-font"
 cask "google-drive"
 # Free and open-source media player
 cask "iina"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # Keyboard customizer
 cask "karabiner-elements"
 # Cloud storage client
