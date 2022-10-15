@@ -3,3 +3,5 @@
 	email = todor.ilya@gmail.com
 [pull]
 	rebase = true
+[core]
+	editor = nano
