@@ -13,6 +13,7 @@
 #    ~/.vim: vim
    ~/.zshrc: zshrc
    ~/.zshenv: zshenv
+   ~/.p10k.zsh: p10k.zsh
    ~/.gitconfig: config/gitconfig
    ~/.config/karabiner/karabiner.json: config/karabiner.json
    ~/.config/bat/config: config/batconfig
