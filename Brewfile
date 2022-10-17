@@ -48,6 +48,8 @@ cask "iina"
 cask "iterm2"
 # Keyboard customizer
 cask "karabiner-elements"
+# Native app email client for Gmail
+cask "mimestream"
 # Cloud storage client
 cask "onedrive"
 # Collaboration platform for API development
