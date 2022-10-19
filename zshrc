@@ -91,8 +91,6 @@ plugins=(
     terraform
     virtualenv
     wakatime
-    zsh-autosuggestions
-    zsh-syntax-highlighting
 )
 
 # User configuration
@@ -139,6 +137,8 @@ fi
 # RPROMPT="[%*]"
 
 source $ZSH/oh-my-zsh.sh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ## python
 alias act="source venv/bin/activate"
