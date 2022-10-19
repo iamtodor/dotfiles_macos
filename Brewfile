@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -34,6 +35,8 @@ brew "zsh-syntax-highlighting"
 brew "eth-p/software/bat-extras"
 # Terraform
 brew "hashicorp/tap/terraform"
+# A Zsh Theme
+brew "romkatv/powerlevel10k/powerlevel10k"
 # Two-factor authentication software
 cask "authy"
 # Menu bar icon organizer
