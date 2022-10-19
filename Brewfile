@@ -26,6 +26,10 @@ brew "tree"
 brew "wget"
 # Yet Another Dotfiles Manager
 brew "yadm"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Terraform
