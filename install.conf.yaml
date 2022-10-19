@@ -15,6 +15,7 @@
    ~/.zshenv: zshenv
    ~/.p10k.zsh: p10k.zsh
    ~/.gitconfig: config/gitconfig
+   ~/.gitignore: config/gitignore
    ~/.config/karabiner: config/karabiner
    ~/.config/bat/config: config/batconfig
 
@@ -27,3 +28,4 @@
   - 
     command: ./setup_homebrew.zsh
     stdin: true
+  - command: ./setup_ohmyzsh.zsh
