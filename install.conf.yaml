@@ -15,7 +15,7 @@
    ~/.zshenv: zshenv
    ~/.p10k.zsh: p10k.zsh
    ~/.gitconfig: config/gitconfig
-   ~/.config/karabiner/karabiner.json: config/karabiner.json
+   ~/.config/karabiner: config/karabiner
    ~/.config/bat/config: config/batconfig
 
 
