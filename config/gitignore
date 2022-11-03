@@ -4,3 +4,4 @@
 .history/
 env
 venv
+.ipynb_checkpoints/
