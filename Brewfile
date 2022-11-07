@@ -25,8 +25,6 @@ brew "tldr"
 brew "tree"
 # Internet file retriever
 brew "wget"
-# Yet Another Dotfiles Manager
-brew "yadm"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
@@ -65,9 +63,9 @@ cask "postman"
 cask "rectangle"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# mas "Amphetamine", id: 937984704
-# mas "Bitwarden", id: 1352778147
-# mas "Flow", id: 1423210932
-# mas "Lightshot Screenshot", id: 526298438
-# mas "Polyglot", id: 1471801525
-# mas "The Unarchiver", id: 425424353
+mas "Amphetamine", id: 937984704
+mas "Bitwarden", id: 1352778147
+mas "Flow", id: 1423210932
+mas "Lightshot Screenshot", id: 526298438
+mas "Polyglot", id: 1471801525
+mas "The Unarchiver", id: 425424353
