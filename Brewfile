@@ -23,8 +23,6 @@ brew "less"
 brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
-# Execute binaries from Python packages in isolated environments
-brew "pipx"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Simplified and community-driven man pages
@@ -73,3 +71,10 @@ cask "rectangle"
 cask "sourcetree"
 # Messaging app with a focus on speed and security
 cask "telegram"
+mas "Amphetamine", id: 937984704
+mas "Balance Lock", id: 1019371109
+mas "Bitwarden", id: 1352778147
+mas "Flow", id: 1423210932
+mas "Lightshot Screenshot", id: 526298438
+mas "Polyglot", id: 1471801525
+mas "The Unarchiver", id: 425424353
