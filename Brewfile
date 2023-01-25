@@ -41,6 +41,8 @@ brew "eth-p/software/bat-extras"
 brew "hashicorp/tap/terraform"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
+# Application uninstaller
+cask "appcleaner"
 # Two-factor authentication software
 cask "authy"
 # Menu bar icon organizer
@@ -67,6 +69,8 @@ cask "onedrive"
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Team communication and collaboration software
+cask "slack"
 # Graphical client for Git version control
 cask "sourcetree"
 # Messaging app with a focus on speed and security
