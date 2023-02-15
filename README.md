@@ -2,6 +2,10 @@
 
 Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.itermcolors`.
 
+# Installation
+
+Run `./install`
+
 # TODO
 
 - zsh plugins https://github.com/mattmc3/antidote
@@ -28,6 +32,8 @@ Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.iter
     - pycharm
     - vscode
     - global gitignore
+    - aws config
+    - ~~add git config per dir https://dev.to/jma/multiple-gitconfig-409k~~
 - pycharm start from console
 - iterm bat less
 - test dotfiles with github actions macos:
