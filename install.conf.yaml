@@ -16,6 +16,7 @@
    ~/.p10k.zsh: p10k.zsh
    ~/.gitconfig: config/gitconfig
    ~/.gitconfig-eugo: config/gitconfig-eugo
+   ~/.gitconfig-neurons-lab: config/gitconfig-neurons-lab
    ~/.gitignore: config/gitignore
    ~/.config/karabiner: config/karabiner
    ~/.config/bat/config: config/batconfig
