@@ -30,4 +30,4 @@
   - 
     command: ./setup_homebrew.zsh
     stdin: true
-  # - command: ./setup_ohmyzsh.zsh
+  - command: ./setup_ohmyzsh.zsh
