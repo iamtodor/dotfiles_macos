@@ -17,6 +17,7 @@
    ~/.gitconfig: config/gitconfig
    ~/.gitconfig-eugo: config/gitconfig-eugo
    ~/.gitconfig-neurons-lab: config/gitconfig-neurons-lab
+   ~/.gitconfig-freshbooks: config/gitconfig-freshbooks
    ~/.gitignore: config/gitignore
    ~/.config/karabiner: config/karabiner
    ~/.config/bat/config: config/batconfig

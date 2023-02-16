@@ -1,5 +1,5 @@
 [user]
-	name = iamtodor
+	name = illia.todor
 	email = todor.ilya@gmail.com
 [pull]
 	rebase = true
@@ -18,3 +18,6 @@
 
 [includeIf "gitdir:~/programming/neurons-lab/projects/inner"]
 	path = ~/.gitconfig-neurons-lab
+
+[includeIf "gitdir:~/programming/freshbooks/"]
+	path = ~/.gitconfig-freshbooks

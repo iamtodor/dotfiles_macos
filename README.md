@@ -72,3 +72,7 @@ I'd recommend to you promote this course on reddit in an appropriate subreddit. 
 As you mentioned:
 1. "price of the course might go up if I add future installments" - I'm totally up for paying for a parts. Its definitely worth it.
 2. "with your support, I'll be able to make those future installments" - I can repost your post in any social media in order to promote it. Just leave the linkedin, twitter, reddit, basically any link and ask for support and repost.
+
+# Git notes
+
+Check git config per project works properly: `git config --get core.isFB || echo false`

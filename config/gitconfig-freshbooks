@@ -1,0 +1,6 @@
+[user]
+	name = illia.todorenko
+	email = illia.todorenko@freshbooks.com
+[core]
+	isFB = true
+	sshCommand = ssh -i ~/.ssh/freshbooks
