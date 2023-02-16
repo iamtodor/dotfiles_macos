@@ -3,3 +3,4 @@
 	email = illia.todor@neurons-lab.com
 [core]
 	isEugo = true
+	sshCommand = ssh -i ~/.ssh/eugo

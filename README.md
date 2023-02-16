@@ -4,7 +4,7 @@ Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.iter
 
 # Installation
 
-Run `./install`
+Run `./install`. For debug use `./install -v`
 
 # TODO
 
@@ -17,7 +17,6 @@ Run `./install`
     - ~~mimestream~~
     - youtube music
     - bitwarden (cannot integrate with browser) https://github.com/bitwarden/clients/issues/3637
-    - snappy. http://snappy-app.com/faq does not have https
     - ~~slack~~
     - ~~karabiner~~
     - ~~iterm~~
@@ -31,7 +30,7 @@ Run `./install`
     - ~~powerline10k~~
     - pycharm
     - vscode
-    - global gitignore
+    - ~~global gitignore~~
     - aws config
     - ~~add git config per dir https://dev.to/jma/multiple-gitconfig-409k~~
 - pycharm start from console
@@ -45,7 +44,8 @@ cat << EOF >> ~/.zshrc
 
 # Python
 
-Install from dmg
+- Install from dmg
+- [pyenv](https://github.com/pyenv/pyenv)
 
 # Add Visual Studio Code (code)
 
