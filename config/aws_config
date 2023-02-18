@@ -1,0 +1,15 @@
+[default]
+region = eu-central-1
+output = json
+
+[sso-session eugo-sso]
+sso_start_url = https://eugoinc.awsapps.com/start
+sso_region = us-east-1
+sso_registration_scopes = sso:account:access
+
+[profile eugo-dev-sso]
+sso_session = eugo-sso
+sso_account_id = 411727469413
+sso_role_name = AWSPowerUserAccess
+region = us-east-1
+output = json

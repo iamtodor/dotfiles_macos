@@ -21,6 +21,7 @@
    ~/.gitignore: config/git/gitignore
    ~/.config/karabiner: config/karabiner
    ~/.config/bat/config: config/batconfig
+   ~/.aws/config: config/aws_config
 
 
 # - create:
@@ -31,4 +32,4 @@
   - 
     command: ./setup_homebrew.zsh
     stdin: true
-  - command: ./setup_ohmyzsh.zsh
+  # - command: ./setup_ohmyzsh.zsh
