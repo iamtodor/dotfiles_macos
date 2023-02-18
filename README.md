@@ -10,7 +10,7 @@ Run `./install`. For debug use `./install -v`
 
 - zsh plugins https://github.com/mattmc3/antidote
 - ~~fonts~~
-- setup global git ignore file
+- ~~setup global git ignore file~~
 - homebrew:
     - google chrome
     - vscode
@@ -31,21 +31,25 @@ Run `./install`. For debug use `./install -v`
     - pycharm
     - vscode
     - ~~global gitignore~~
-    - aws config
+    - ~~aws config~~
     - ~~add git config per dir https://dev.to/jma/multiple-gitconfig-409k~~
-- pycharm start from console
+- ~~pycharm start from console~~
 - iterm bat less
 - test dotfiles with github actions macos:
     - https://github.com/webpro/dotfiles/blob/master/.github/workflows/ci.yml
     - https://github.com/anishathalye/dotfiles/blob/master/.github/workflows/build.yml
     - https://tomforb.es/testing-my-dotfiles-with-github-actions/
+- check fish https://fishshell.com/ probably from Nikita
+
 
 cat << EOF >> ~/.zshrc
 
 # Python
 
 - Install from dmg
-- [pyenv](https://github.com/pyenv/pyenv)
+- [pyenv](https://github.com/pyenv/pyenv):
+    - https://opensource.com/article/20/4/pyenv
+    - https://opensource.com/article/19/5/python-3-default-mac
 
 # Add Visual Studio Code (code)
 
