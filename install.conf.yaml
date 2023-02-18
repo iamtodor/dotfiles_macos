@@ -14,11 +14,11 @@
    ~/.zshrc: zshrc
    ~/.zshenv: zshenv
    ~/.p10k.zsh: p10k.zsh
-   ~/.gitconfig: config/gitconfig
-   ~/.gitconfig-eugo: config/gitconfig-eugo
-   ~/.gitconfig-neurons-lab: config/gitconfig-neurons-lab
-   ~/.gitconfig-freshbooks: config/gitconfig-freshbooks
-   ~/.gitignore: config/gitignore
+   ~/.gitconfig: config/git/gitconfig
+   ~/.gitconfig-eugo: config/git/gitconfig-eugo
+   ~/.gitconfig-neurons-lab: config/git/gitconfig-neurons-lab
+   ~/.gitconfig-freshbooks: config/git/gitconfig-freshbooks
+   ~/.gitignore: config/git/gitignore
    ~/.config/karabiner: config/karabiner
    ~/.config/bat/config: config/batconfig
 
