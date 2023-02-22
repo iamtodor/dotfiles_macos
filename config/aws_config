@@ -13,3 +13,24 @@ sso_account_id = 411727469413
 sso_role_name = AWSPowerUserAccess
 region = us-east-1
 output = json
+
+[profile eugo-deploy-sso]
+sso_session = eugo-sso
+sso_account_id = 345295219811
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = json
+
+[profile eugo-prod-sso]
+sso_session = eugo-sso
+sso_account_id = 466879337698
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = json
+
+[profile eugo-sim-customer-sso]
+sso_session = eugo-sso
+sso_account_id = 097702293593
+sso_role_name = PowerUserAccess
+region = us-east-1
+output = json
