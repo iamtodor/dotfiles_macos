@@ -39,7 +39,7 @@ Run `./install`. For debug use `./install -v`
     - https://github.com/webpro/dotfiles/blob/master/.github/workflows/ci.yml
     - https://github.com/anishathalye/dotfiles/blob/master/.github/workflows/build.yml
     - https://tomforb.es/testing-my-dotfiles-with-github-actions/
-- check fish https://fishshell.com/ probably from Nikita
+- check fish https://fishshell.com/ probably from Nikita https://github.com/hamsternik/dotfiles
 
 
 cat << EOF >> ~/.zshrc
