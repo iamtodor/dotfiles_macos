@@ -79,4 +79,4 @@ As you mentioned:
 
 # Git notes
 
-Check git config per project works properly: `git config --get core.isFB || echo false`
+- Check git config per project works properly: `git config --get core.isFB || echo false`. To make it work, the dir where this command is run, should be a git repository
