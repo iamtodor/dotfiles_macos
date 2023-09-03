@@ -4,7 +4,11 @@ Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.iter
 
 # Installation
 
-Run `./install`. For debug use `./install -v`
+Run `./install`. For debugging use `./install -v`
+
+# Uninstall
+
+[Wiki guide](https://github.com/anishathalye/dotbot/wiki/Tips-and-Tricks#uninstall-script)
 
 # TODO
 
