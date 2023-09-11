@@ -1,15 +1,19 @@
-# Iterm
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.itermcolors`.
+- [TODO](#todo)
+- [Learning resources](#learning-resources)
+- [Notes](#notes)
+  * [Installation](#installation)
+  * [Uninstall](#uninstall)
+  * [Python](#python)
+  * [Git notes](#git-notes)
+  * [VS Code](#vs-code)
+  * [Brew](#brew)
+  * [Iterm](#iterm)
 
-# Installation
+<!-- TOC end -->
 
-Run `./install`. For debugging use `./install -v`
-
-# Uninstall
-
-[Wiki guide](https://github.com/anishathalye/dotbot/wiki/Tips-and-Tricks#uninstall-script)
-
+<!-- TOC --><a name="todo"></a>
 # TODO
 
 - zsh plugins https://github.com/mattmc3/antidote
@@ -26,6 +30,7 @@ Run `./install`. For debugging use `./install -v`
     - ~~iterm~~
     - qbserve
     - pycharm
+    - jetbrains toolbox
 - configs:
     - flux https://forum.justgetflux.com/post-queue cat ~/Library/Preferences/org.herf.Flux.plist
     - bartender
@@ -45,31 +50,47 @@ Run `./install`. For debugging use `./install -v`
     - https://tomforb.es/testing-my-dotfiles-with-github-actions/
 - check fish https://fishshell.com/ probably from Nikita
 
+<!-- TOC --><a name="learning-resources"></a>
+# Learning resources
 
-cat << EOF >> ~/.zshrc
+- https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/
+- https://github.com/eieioxyz/dotfiles_macos
 
-# Python
+<!-- TOC --><a name="notes"></a>
+# Notes
+
+<!-- TOC --><a name="installation"></a>
+## Installation
+
+Run `./install`. For debugging use `./install -v`
+
+<!-- TOC --><a name="uninstall"></a>
+## Uninstall
+
+[Wiki guide](https://github.com/anishathalye/dotbot/wiki/Tips-and-Tricks#uninstall-script)
+
+
+<!-- TOC --><a name="python"></a>
+## Python
 
 - Install from dmg
 - [pyenv](https://github.com/pyenv/pyenv):
     - https://opensource.com/article/20/4/pyenv
     - https://opensource.com/article/19/5/python-3-default-mac
 
-# Add Visual Studio Code (code)
-
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-EOF
-
-# Notes
-
+<!-- TOC --><a name="git-notes"></a>
 ## Git notes
 
 Check git config per project works properly: `git config --get core.isFB || echo false`. To make it work, the dir where this command is run should be a git repository.
 
+<!-- TOC --><a name="vs-code"></a>
 ## VS Code
 
-Use `CMD+` and `CMD-` to zoom the IDE: https://stackoverflow.com/questions/33701933/how-to-change-environments-font-size#comment119265514_33717357
+- Use `CMD+` and `CMD-` to zoom the IDE: https://stackoverflow.com/questions/33701933/how-to-change-environments-font-size#comment119265514_33717357
+- export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+EOF
 
+<!-- TOC --><a name="brew"></a>
 ## Brew
 
 Dumps all the apps and packages:
@@ -77,3 +98,8 @@ Dumps all the apps and packages:
 ```
 brew bundle dump --describe --force
 ```
+
+<!-- TOC --><a name="iterm"></a>
+## Iterm
+
+Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.itermcolors`.
