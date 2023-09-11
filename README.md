@@ -60,27 +60,20 @@ cat << EOF >> ~/.zshrc
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 EOF
 
+# Notes
+
+## Git notes
+
+Check git config per project works properly: `git config --get core.isFB || echo false`. To make it work, the dir where this command is run should be a git repository.
+
+## VS Code
+
+Use `CMD+` and `CMD-` to zoom the IDE: https://stackoverflow.com/questions/33701933/how-to-change-environments-font-size#comment119265514_33717357
+
+## Brew
+
+Dumps all the apps and packages:
+
 ```
 brew bundle dump --describe --force
 ```
-
-
-First of all, thank you for such a great course!
-
-It's one of the best course I buy and pass so far during all my careeer.
-
-I'm not an English native speaker, so excuse me if I use an unappropriate words here. I don't aim to blame you or bring any negative here.
-
-Personally, I learn a lot of stuff. And there more to come. I'm interested in more content.
-
-I'm not sure if you could shift responsibility for promoting the course from yourself to your payable customers. It's sort of your business to create a catching promo movie, decent course, and to promote and ad your course. We are as a customers cannot be responsible about your income. You set the price - we agreed on it. To show my adherence, I mark this course 5/5 and I leave a pleasant review. I also would recommending this course to my macOS friends. But it's not that amount of audience you expect.
-
-I'd recommend to you promote this course on reddit in an appropriate subreddit. I would definitely vote for that.
-
-As you mentioned:
-1. "price of the course might go up if I add future installments" - I'm totally up for paying for a parts. Its definitely worth it.
-2. "with your support, I'll be able to make those future installments" - I can repost your post in any social media in order to promote it. Just leave the linkedin, twitter, reddit, basically any link and ask for support and repost.
-
-# Git notes
-
-- Check git config per project works properly: `git config --get core.isFB || echo false`. To make it work, the dir where this command is run, should be a git repository
