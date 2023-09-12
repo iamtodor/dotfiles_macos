@@ -50,7 +50,6 @@
     - https://tomforb.es/testing-my-dotfiles-with-github-actions/
 - check fish https://fishshell.com/ probably from Nikita
 - check https://github.com/Mortennn/Dozer vs Bartender
-- 
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources
@@ -70,7 +69,6 @@ Run `./install`. For debugging use `./install -v`
 ## Uninstall
 
 [Wiki guide](https://github.com/anishathalye/dotbot/wiki/Tips-and-Tricks#uninstall-script)
-
 
 <!-- TOC --><a name="python"></a>
 ## Python
@@ -94,6 +92,8 @@ EOF
 
 <!-- TOC --><a name="brew"></a>
 ## Brew
+
+To install all the packages manually see [setup_homebrew.zsh](setup_homebrew.zsh).
 
 Dumps all the apps and packages:
 
