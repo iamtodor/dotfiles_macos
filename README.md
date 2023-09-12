@@ -1,11 +1,19 @@
-# Iterm
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.itermcolors`.
+- [TODO](#todo)
+- [Learning resources](#learning-resources)
+- [Notes](#notes)
+  * [Installation](#installation)
+  * [Uninstall](#uninstall)
+  * [Python](#python)
+  * [Git notes](#git-notes)
+  * [VS Code](#vs-code)
+  * [Brew](#brew)
+  * [Iterm](#iterm)
 
-# Installation
+<!-- TOC end -->
 
-Run `./install`. For debug use `./install -v`
-
+<!-- TOC --><a name="todo"></a>
 # TODO
 
 - zsh plugins https://github.com/mattmc3/antidote
@@ -22,6 +30,7 @@ Run `./install`. For debug use `./install -v`
     - ~~iterm~~
     - qbserve
     - pycharm
+    - jetbrains toolbox
 - configs:
     - flux https://forum.justgetflux.com/post-queue cat ~/Library/Preferences/org.herf.Flux.plist
     - bartender
@@ -39,44 +48,62 @@ Run `./install`. For debug use `./install -v`
     - https://github.com/webpro/dotfiles/blob/master/.github/workflows/ci.yml
     - https://github.com/anishathalye/dotfiles/blob/master/.github/workflows/build.yml
     - https://tomforb.es/testing-my-dotfiles-with-github-actions/
-- check fish https://fishshell.com/ probably from Nikita https://github.com/hamsternik/dotfiles
+- check fish https://fishshell.com/ probably from Nikita
+- check https://github.com/Mortennn/Dozer vs Bartender
+- 
+
+<!-- TOC --><a name="learning-resources"></a>
+# Learning resources
+
+- https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/
+- https://github.com/eieioxyz/dotfiles_macos
+
+<!-- TOC --><a name="notes"></a>
+# Notes
+
+<!-- TOC --><a name="installation"></a>
+## Installation
+
+Run `./install`. For debugging use `./install -v`
+
+<!-- TOC --><a name="uninstall"></a>
+## Uninstall
+
+[Wiki guide](https://github.com/anishathalye/dotbot/wiki/Tips-and-Tricks#uninstall-script)
 
 
-cat << EOF >> ~/.zshrc
-
-# Python
+<!-- TOC --><a name="python"></a>
+## Python
 
 - Install from dmg
 - [pyenv](https://github.com/pyenv/pyenv):
     - https://opensource.com/article/20/4/pyenv
     - https://opensource.com/article/19/5/python-3-default-mac
 
-# Add Visual Studio Code (code)
+<!-- TOC --><a name="git-notes"></a>
+## Git notes
 
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+Check git config per project works properly: `git config --get core.isFB || echo false`. To make it work, the dir where this command is run should be a git repository.
+
+<!-- TOC --><a name="vs-code"></a>
+## VS Code
+
+- Use `CMD+` and `CMD-` to zoom the IDE: https://stackoverflow.com/questions/33701933/how-to-change-environments-font-size#comment119265514_33717357
+- export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 EOF
+
+<!-- TOC --><a name="brew"></a>
+## Brew
+
+Dumps all the apps and packages:
 
 ```
 brew bundle dump --describe --force
 ```
 
+<!-- TOC --><a name="iterm"></a>
+## Iterm
 
-First of all, thank you for such a great course!
+Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.itermcolors`. 
 
-It's one of the best course I buy and pass so far during all my careeer.
-
-I'm not an English native speaker, so excuse me if I use an unappropriate words here. I don't aim to blame you or bring any negative here.
-
-Personally, I learn a lot of stuff. And there more to come. I'm interested in more content.
-
-I'm not sure if you could shift responsibility for promoting the course from yourself to your payable customers. It's sort of your business to create a catching promo movie, decent course, and to promote and ad your course. We are as a customers cannot be responsible about your income. You set the price - we agreed on it. To show my adherence, I mark this course 5/5 and I leave a pleasant review. I also would recommending this course to my macOS friends. But it's not that amount of audience you expect.
-
-I'd recommend to you promote this course on reddit in an appropriate subreddit. I would definitely vote for that.
-
-As you mentioned:
-1. "price of the course might go up if I add future installments" - I'm totally up for paying for a parts. Its definitely worth it.
-2. "with your support, I'll be able to make those future installments" - I can repost your post in any social media in order to promote it. Just leave the linkedin, twitter, reddit, basically any link and ask for support and repost.
-
-# Git notes
-
-Check git config per project works properly: `git config --get core.isFB || echo false`
+The profile [import](https://stackoverflow.com/a/23356086/5151861). After import make sure to reload the iterm.
