@@ -4,3 +4,5 @@
 [core]
 	isFB = true
 	sshCommand = ssh -i ~/.ssh/freshbooks
+[pull]
+	rebase = false
