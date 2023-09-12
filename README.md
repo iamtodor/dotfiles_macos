@@ -49,6 +49,7 @@
     - https://github.com/anishathalye/dotfiles/blob/master/.github/workflows/build.yml
     - https://tomforb.es/testing-my-dotfiles-with-github-actions/
 - check fish https://fishshell.com/ probably from Nikita
+- check https://github.com/Mortennn/Dozer vs Bartender
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources
