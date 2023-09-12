@@ -1,12 +1,8 @@
 tap "eth-p/software"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "romkatv/powerlevel10k"
-# Official Amazon AWS command-line interface
-brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -23,10 +19,12 @@ brew "less"
 brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
+# Theme for zsh
+brew "powerlevel10k"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Python version management
-brew "pyenv"
+brew "pyenv", args: ["HEAD"]
 # Simplified and community-driven man pages
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
@@ -41,14 +39,14 @@ brew "zsh-syntax-highlighting"
 brew "eth-p/software/bat-extras"
 # Terraform
 brew "hashicorp/tap/terraform"
-# A Zsh Theme
-brew "romkatv/powerlevel10k/powerlevel10k"
 # Application uninstaller
 cask "appcleaner"
 # Two-factor authentication software
 cask "authy"
 # Menu bar icon organizer
 cask "bartender"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Screen color temperature controller
@@ -63,6 +61,8 @@ cask "iina"
 cask "iterm2"
 # Keyboard customizer
 cask "karabiner-elements"
+# Full TeX Live distribution with GUI applications
+cask "mactex"
 # Native app email client for Gmail
 cask "mimestream"
 # Cloud storage client
@@ -83,5 +83,52 @@ mas "Amphetamine", id: 937984704
 mas "Balance Lock", id: 1019371109
 mas "Bitwarden", id: 1352778147
 mas "Flow", id: 1423210932
-mas "Polyglot", id: 1471801525
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "The Unarchiver", id: 425424353
+vscode "adpyke.vscode-sql-formatter"
+vscode "ccimage.jsonviewer"
+vscode "DotJoshJohnson.xml"
+vscode "eamodio.gitlens"
+vscode "emilast.LogFileHighlighter"
+vscode "github.vscode-github-actions"
+vscode "GrapeCity.gc-excelviewer"
+vscode "hashicorp.terraform"
+vscode "innoverio.vscode-dbt-power-user"
+vscode "James-Yu.latex-workshop"
+vscode "k--kato.intellij-idea-keybindings"
+vscode "kddejong.vscode-cfn-lint"
+vscode "mathematic.vscode-latex"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.makefile-tools"
+vscode "NicolasVuillamy.vscode-groovy-lint"
+vscode "redhat.java"
+vscode "redhat.vscode-commons"
+vscode "redhat.vscode-xml"
+vscode "redhat.vscode-yaml"
+vscode "samuelcolvin.jinjahtml"
+vscode "scala-lang.scala"
+vscode "scalameta.metals"
+vscode "stkb.rewrap"
+vscode "streetsidesoftware.avro"
+vscode "VisualStudioExptTeam.intellicode-api-usage-examples"
+vscode "VisualStudioExptTeam.vscodeintellicode"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "WakaTime.vscode-wakatime"
+vscode "xyz.local-history"
+vscode "zhuangtongfa.material-theme"
