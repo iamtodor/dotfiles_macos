@@ -102,4 +102,6 @@ brew bundle dump --describe --force
 <!-- TOC --><a name="iterm"></a>
 ## Iterm
 
-Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.itermcolors`.
+Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.itermcolors`. 
+
+The profile [import](https://stackoverflow.com/a/23356086/5151861). After import make sure to reload the iterm.
