@@ -59,6 +59,8 @@ cask "google-drive"
 cask "iina"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
 # Keyboard customizer
 cask "karabiner-elements"
 # Full TeX Live distribution with GUI applications
