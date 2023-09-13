@@ -53,6 +53,7 @@
 - replace exa: https://github.com/lsd-rs/lsd, https://denshub.com/en/best-ls-command-alternative/,
   https://github.com/eza-community/eza
 - ~~add single user brew app installation~~
+- ~~check the flow with brew https://github.com/ivoronin/TomatoBar~~
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources
