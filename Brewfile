@@ -79,10 +79,10 @@ cask "slack"
 cask "sourcetree"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Menu bar pomodoro timer
+cask "tomatobar"
 mas "Amphetamine", id: 937984704
-mas "Balance Lock", id: 1019371109
 mas "Bitwarden", id: 1352778147
-mas "Flow", id: 1423210932
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
