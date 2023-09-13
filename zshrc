@@ -113,7 +113,7 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # Add AWS completion
 export PATH="/usr/local/bin/aws_completer:$PATH"
 
-export HOMEBREW_CASK_OPTS="--no-quarantine"
+export HOMEBREW_CASK_OPTS="--no-quarantine --appdir=~/Applications"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/programming/tools/google-cloud-sdk_280/path.zsh.inc" ]; 
@@ -166,6 +166,8 @@ alias glog2="git log --color --graph --branches --pretty=format:'%C(red)%h%C(res
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"

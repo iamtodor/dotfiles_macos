@@ -30,7 +30,7 @@
     - ~~iterm~~
     - qbserve
     - pycharm
-    - jetbrains toolbox
+    - ~~jetbrains toolbox~~
 - configs:
     - flux https://forum.justgetflux.com/post-queue cat ~/Library/Preferences/org.herf.Flux.plist
     - bartender
@@ -52,7 +52,7 @@
 - check https://github.com/Mortennn/Dozer vs Bartender
 - replace exa: https://github.com/lsd-rs/lsd, https://denshub.com/en/best-ls-command-alternative/,
   https://github.com/eza-community/eza
-- add single user brew app installation
+- ~~add single user brew app installation~~
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources
@@ -104,9 +104,17 @@ Dumps all the apps and packages:
 brew bundle dump --describe --force
 ```
 
+`bbd` Alias in [zshrc file](./zshrc)
+
+Different notes https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md#options
+
 <!-- TOC --><a name="iterm"></a>
 ## Iterm
 
 Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.itermcolors`. 
 
 The profile [import](https://stackoverflow.com/a/23356086/5151861). After import make sure to reload the iterm.
+
+## Screen capture
+
+- iscreen shoter
