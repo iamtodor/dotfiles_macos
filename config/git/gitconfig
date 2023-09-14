@@ -14,11 +14,5 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 
-[includeIf "gitdir:~/programming/neurons-lab/projects/eugo/"]
-	path = ~/.gitconfig-eugo
-
-[includeIf "gitdir:~/programming/neurons-lab/projects/inner"]
-	path = ~/.gitconfig-neurons-lab
-
 [includeIf "gitdir:~/programming/freshbooks/"]
 	path = ~/.gitconfig-freshbooks
