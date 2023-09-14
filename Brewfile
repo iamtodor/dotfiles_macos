@@ -83,6 +83,8 @@ cask "sourcetree"
 cask "telegram"
 # Menu bar pomodoro timer
 cask "tomatobar"
+# Open-source BitTorrent client
+cask "transmission"
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 mas "Keynote", id: 409183694
