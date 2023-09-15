@@ -145,6 +145,13 @@ alias lh='eza -dl .* --group-directories-first'
 alias ll='eza -al --group-directories-first'
 alias lss='eza -alF --color=always --sort=size | grep -v /'
 alias lt='eza -al --sort=modified'
+alias personal_git_creds='GIT_SSH_COMMAND="ssh -i ~/.ssh/personal"'
+alias usage="du -h -d1"
+alias runp="lsof -i "
+alias zshconfigcat="cat ~/.zshrc"
+alias zshconfigcode="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias update="source ~/.zshrc"
 
 alias man="batman"
 alias bbd="brew bundle dump --describe --force"
@@ -157,14 +164,6 @@ alias dup="docker-compose up -d"
 alias dstop="docker-compose stop"
 alias drestart="docker-compose restart"
 alias drm="docker-compose rm --all"
-
-alias personal_git_creds='GIT_SSH_COMMAND="ssh -i ~/.ssh/personal"'
-alias usage="du -h -d1"
-alias runp="lsof -i "
-alias zshconfigcat="cat ~/.zshrc"
-alias zshconfigcode="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
-alias update="source ~/.zshrc"
 
 ## git
 unalias glog
