@@ -5,8 +5,10 @@ tap "homebrew/cask-fonts"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Modern replacement for 'ls'
-brew "exa"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Modern, maintained replacement for ls
+brew "eza"
 # Distributed revision control system
 brew "git"
 # Improved top (interactive process viewer)

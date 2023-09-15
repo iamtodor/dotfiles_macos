@@ -138,7 +138,14 @@ alias jl="jupyter lab"
 
 ## general
 alias ls="ls -lAFh"
-alias exa="exa -laFh --git"
+alias eza="eza -laFh"
+alias ld='eza -lD'
+alias lf='eza -lF --color=always | grep -v /'
+alias lh='eza -dl .* --group-directories-first'
+alias ll='eza -al --group-directories-first'
+alias lss='eza -alF --color=always --sort=size | grep -v /'
+alias lt='eza -al --sort=modified'
+
 alias man="batman"
 alias bbd="brew bundle dump --describe --force"
 # used to see all variables in $PATH in readable way

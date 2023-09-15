@@ -50,8 +50,7 @@
     - https://tomforb.es/testing-my-dotfiles-with-github-actions/
 - check fish https://fishshell.com/ probably from Nikita
 - check https://github.com/Mortennn/Dozer vs Bartender
-- replace exa: https://github.com/lsd-rs/lsd, https://denshub.com/en/best-ls-command-alternative/,
-  https://github.com/eza-community/eza
+- ~~replace exa~~
 - ~~add single user brew app installation~~
 - ~~check the flow with brew https://github.com/ivoronin/TomatoBar~~
 
