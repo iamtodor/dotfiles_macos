@@ -11,20 +11,21 @@
 - link:
 #    ~/.tmux.conf: tmux.conf
 #    ~/.vim: vim
-   ~/.zshrc: zshrc
-   ~/.zshenv: zshenv
-   ~/.p10k.zsh: p10k.zsh
-   ~/.gitconfig: config/git/gitconfig
-   ~/.gitconfig-freshbooks: config/git/gitconfig-freshbooks
-   ~/.gitignore: config/git/gitignore
-   ~/.config/karabiner: config/karabiner
-   ~/.config/bat/config: config/batconfig
-   ~/.aws/config: config/aws_config
+    ~/.zshrc: zshrc
+    ~/.zshenv: zshenv
+    ~/.p10k.zsh: p10k.zsh
+    ~/.gitconfig: config/git/gitconfig
+    ~/.gitconfig-freshbooks: config/git/gitconfig-freshbooks
+    ~/.gitconfig-gsk: config/git/gitconfig-gsk
+    ~/.gitignore: config/git/gitignore
+    ~/.config/karabiner: config/karabiner
+    ~/.config/bat/config: config/batconfig
+    ~/.aws/config: config/aws_config
 
-
-# - create:
-    # - ~/programming/tools/
-    # - ~/.vim/undo-history
+- create:
+    - ~/programming/tools/
+    - ~/.aws/
+    - ~/.config/bat/
 
 - shell:
   - command: chmod +x ./setup_ohmyzsh.zsh
