@@ -53,6 +53,7 @@
 - ~~replace exa~~
 - ~~add single user brew app installation~~
 - ~~check the flow with brew https://github.com/ivoronin/TomatoBar~~
+- ~~add check for setup_ohmyzsh.zsh~~
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources

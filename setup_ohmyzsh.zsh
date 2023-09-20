@@ -2,4 +2,9 @@
 
 echo "\n<<< Starting oh-my-zsh Setup >>>\n"
 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+if [ -z "$ZSH" ]; then
+    echo "\$ZSH is not set, installing Oh My Zsh"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+else
+    echo "\$ZSH is already set as $ZSH, skipping Oh My Zsh installation"
+fi

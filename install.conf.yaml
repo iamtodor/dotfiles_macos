@@ -27,7 +27,7 @@
     # - ~/.vim/undo-history
 
 - shell:
-  - 
-    command: ./setup_homebrew.zsh
+  - command: chmod +x ./setup_ohmyzsh.zsh
+  - command: ./setup_homebrew.zsh
     stdin: true
-  # - command: ./setup_ohmyzsh.zsh
+  - command: ./setup_ohmyzsh.zsh
