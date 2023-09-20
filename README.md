@@ -16,7 +16,7 @@
 <!-- TOC --><a name="todo"></a>
 # TODO
 
-- zsh plugins https://github.com/mattmc3/antidote
+- zsh plugins https://github.com/mattmc3/antidote antigen
 - ~~fonts~~
 - ~~setup global git ignore file~~
 - homebrew:
@@ -54,6 +54,9 @@
 - ~~add single user brew app installation~~
 - ~~check the flow with brew https://github.com/ivoronin/TomatoBar~~
 - ~~add check for setup_ohmyzsh.zsh~~
+- wakatime plugin installation https://github.com/sobolevn/wakatime-zsh-plugin#manual
+  https://wakatime.com/terminal#install-zsh
+- explore dotfiles https://github.com/getantibody/antibody#in-the-wild
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources
