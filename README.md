@@ -43,7 +43,7 @@
     - ~~aws config~~
     - ~~add git config per dir https://dev.to/jma/multiple-gitconfig-409k~~
 - ~~pycharm start from console~~
-- iterm bat less
+- iterm bat less https://github.com/sharkdp/bat/issues/2367
 - test dotfiles with github actions macos:
     - https://github.com/webpro/dotfiles/blob/master/.github/workflows/ci.yml
     - https://github.com/anishathalye/dotfiles/blob/master/.github/workflows/build.yml
