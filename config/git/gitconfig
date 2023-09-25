@@ -7,6 +7,7 @@
 	editor = nano
 	excludesfile = ~/.gitignore
 	sshCommand = ssh -i ~/.ssh/personal
+	autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 

@@ -87,6 +87,8 @@ cask "telegram"
 cask "tomatobar"
 # Open-source BitTorrent client
 cask "transmission"
+# Open-source code editor
+cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 mas "Keynote", id: 409183694

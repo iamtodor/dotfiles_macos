@@ -21,7 +21,7 @@
 - ~~setup global git ignore file~~
 - homebrew:
     - google chrome
-    - vscode
+    - ~~vscode~~
     - ~~mimestream~~
     - youtube music
     - bitwarden (cannot integrate with browser) https://github.com/bitwarden/clients/issues/3637
