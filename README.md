@@ -48,7 +48,6 @@
     - https://github.com/webpro/dotfiles/blob/master/.github/workflows/ci.yml
     - https://github.com/anishathalye/dotfiles/blob/master/.github/workflows/build.yml
     - https://tomforb.es/testing-my-dotfiles-with-github-actions/
-- check fish https://fishshell.com/ probably from Nikita
 - check https://github.com/Mortennn/Dozer vs Bartender
 - ~~replace exa~~
 - ~~add single user brew app installation~~
@@ -57,6 +56,8 @@
 - wakatime plugin installation https://github.com/sobolevn/wakatime-zsh-plugin#manual
   https://wakatime.com/terminal#install-zsh
 - explore dotfiles https://github.com/getantibody/antibody#in-the-wild
+- release main v1.0 once it will be ready
+- start moving to fish shell https://fishshell.com/ probably from Nikita
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources
@@ -88,7 +89,8 @@ Run `./install`. For debugging use `./install -v`
 <!-- TOC --><a name="git-notes"></a>
 ## Git notes
 
-Check git config per project works properly: `git config --get core.isFB || echo false`. To make it work, the dir where this command is run should be a git repository.
+Check git config per project works properly: `git config --get core.isFB || echo false`. To make it work, the dir where
+this command is run should be a git repository.
 
 <!-- TOC --><a name="vs-code"></a>
 ## VS Code
