@@ -58,6 +58,7 @@
 - explore dotfiles https://github.com/getantibody/antibody#in-the-wild
 - release main v1.0 once it will be ready
 - start moving to fish shell https://fishshell.com/ probably from Nikita
+- global gitignore does not work
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources
