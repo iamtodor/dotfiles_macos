@@ -170,6 +170,9 @@ unalias glog
 alias glog="git log --graph --date=short --branches --pretty=format:'%C(red)%h%C(reset) %C(green) | %ad | %C(reset) %s %C(yellow)%d%C(reset) %C(bold blue) [%an] %C(reset)'"
 alias glog2="git log --color --graph --branches --pretty=format:'%C(red)%h%C(reset) %C(green) (%cr) -%C(yellow)%d%C(reset) %s %C(bold blue)<%an>%C(reset)' --abbrev-commit "
 
+alias checkFB="git config --get core.isFB || echo false"
+alias checkGSK="git config --get core.isGSK || echo false"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -177,3 +180,8 @@ alias glog2="git log --color --graph --branches --pretty=format:'%C(red)%h%C(res
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+# export PATH="/Users/it673132/.rd/bin:$PATH"
+export PATH="$HOME/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
