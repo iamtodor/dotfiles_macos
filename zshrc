@@ -185,3 +185,9 @@ eval "$(pyenv init -)"
 # export PATH="/Users/it673132/.rd/bin:$PATH"
 export PATH="$HOME/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f "$HOME/programming/tools/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/programming/tools/google-cloud-sdk/path.zsh.inc"; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f "$HOME/programming/tools/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/programming/tools/google-cloud-sdk/completion.zsh.inc"; fi
