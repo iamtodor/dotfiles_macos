@@ -1,0 +1,8 @@
+[user]
+	name = illia.todorenko
+	email = illia.x.todorenko@gsk.com
+[core]
+	isGSK = true
+	sshCommand = ssh -i ~/.ssh/gsk
+[pull]
+	rebase = false

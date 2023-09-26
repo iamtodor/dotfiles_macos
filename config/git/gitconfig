@@ -5,7 +5,7 @@
 	rebase = true
 [core]
 	editor = nano
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore_global
 	sshCommand = ssh -i ~/.ssh/personal
 	autocrlf = input
 [difftool "sourcetree"]
@@ -17,3 +17,6 @@
 
 [includeIf "gitdir:~/programming/freshbooks/"]
 	path = ~/.gitconfig-freshbooks
+
+[includeIf "gitdir:~/programming/gsk/"]
+	path = ~/.gitconfig-gsk
