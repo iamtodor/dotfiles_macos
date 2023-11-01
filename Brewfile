@@ -26,7 +26,7 @@ brew "powerlevel10k"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
 # Python version management
-brew "pyenv", args: ["HEAD"]
+brew "pyenv"
 # Simplified and community-driven man pages
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
@@ -45,8 +45,6 @@ brew "hashicorp/tap/terraform"
 cask "appcleaner"
 # Two-factor authentication software
 cask "authy"
-# Menu bar icon organizer
-cask "bartender"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 # App to build and share containerized applications and microservices
