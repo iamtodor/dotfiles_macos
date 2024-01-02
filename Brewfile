@@ -5,12 +5,8 @@ tap "homebrew/cask-fonts"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # Modern, maintained replacement for ls
 brew "eza"
-# Distributed revision control system
-brew "git"
 # Improved top (interactive process viewer)
 brew "htop"
 # Lightweight and flexible command-line JSON processor
@@ -37,8 +33,6 @@ brew "wget"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Bash scripts that integrate bat with various command-line tools
-brew "eth-p/software/bat-extras"
 # Terraform
 brew "hashicorp/tap/terraform"
 # Application uninstaller
@@ -51,6 +45,8 @@ cask "dbeaver-community"
 cask "docker"
 # Screen color temperature controller
 cask "flux"
+# Free monospaced font with programming ligatures
+cask "font-fira-code"
 # Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
 # Client for the Google Drive storage service
@@ -63,8 +59,6 @@ cask "iterm2"
 cask "jetbrains-toolbox"
 # Keyboard customizer
 cask "karabiner-elements"
-# Full TeX Live distribution with GUI applications
-cask "mactex"
 # Native app email client for Gmail
 cask "mimestream"
 # Cloud storage client
@@ -79,6 +73,8 @@ cask "shottr"
 cask "slack"
 # Graphical client for Git version control
 cask "sourcetree"
+# Music streaming service
+cask "spotify"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Menu bar pomodoro timer
@@ -87,6 +83,8 @@ cask "tomatobar"
 cask "transmission"
 # Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 mas "Keynote", id: 409183694
@@ -98,11 +96,13 @@ vscode "ccimage.jsonviewer"
 vscode "DotJoshJohnson.xml"
 vscode "eamodio.gitlens"
 vscode "emilast.LogFileHighlighter"
+vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "GrapeCity.gc-excelviewer"
 vscode "hashicorp.terraform"
 vscode "innoverio.vscode-dbt-power-user"
-vscode "James-Yu.latex-workshop"
+vscode "johnpapa.vscode-peacock"
 vscode "k--kato.intellij-idea-keybindings"
 vscode "kddejong.vscode-cfn-lint"
 vscode "mathematic.vscode-latex"
@@ -119,15 +119,14 @@ vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode.makefile-tools"
 vscode "NicolasVuillamy.vscode-groovy-lint"
+vscode "PKief.material-icon-theme"
 vscode "redhat.java"
-vscode "redhat.vscode-commons"
-vscode "redhat.vscode-xml"
-vscode "redhat.vscode-yaml"
 vscode "samuelcolvin.jinjahtml"
 vscode "scala-lang.scala"
 vscode "scalameta.metals"
 vscode "stkb.rewrap"
 vscode "streetsidesoftware.avro"
+vscode "tomoki1207.pdf"
 vscode "VisualStudioExptTeam.intellicode-api-usage-examples"
 vscode "VisualStudioExptTeam.vscodeintellicode"
 vscode "vscjava.vscode-java-debug"
