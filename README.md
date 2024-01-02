@@ -77,6 +77,11 @@ Run `./install`. For debugging use `./install -v`
 <!-- TOC --><a name="uninstall"></a>
 ## Uninstall
 
+```
+pip install PyYAML
+python3 uninstall.py
+```
+
 [Wiki guide](https://github.com/anishathalye/dotbot/wiki/Tips-and-Tricks#uninstall-script)
 
 <!-- TOC --><a name="python"></a>
