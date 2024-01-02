@@ -72,7 +72,9 @@
 <!-- TOC --><a name="installation"></a>
 ## Installation
 
-Run `./install`. For debugging use `./install -v`
+Move the initial `.zshrc` with `mv .zshrc .zshrc_past`.
+
+Run `./install`. For debugging use `./install -v`.
 
 <!-- TOC --><a name="uninstall"></a>
 ## Uninstall
