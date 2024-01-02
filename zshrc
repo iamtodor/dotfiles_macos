@@ -132,7 +132,7 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 
 ## python
-alias act="source venv/bin/activate"
+alias act="source .venv/bin/activate"
 alias base_env="source $HOME/programming/tools/venv/bin/activate"
 alias jl="jupyter lab"
 
