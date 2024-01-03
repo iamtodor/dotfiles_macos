@@ -81,6 +81,8 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 Move the initial `.zshrc` with `mv .zshrc .zshrc_past`.
 
+`git clone git@github.com:iamtodor/dotfiles_macos.git .dotfiles`
+
 Run `./install`. For debugging use `./install -v`.
 
 <!-- TOC --><a name="uninstall"></a>
