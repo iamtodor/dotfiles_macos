@@ -5,12 +5,15 @@
       stdout: true
       stderr: true
 
-
 - clean: ['~']
 
+- create:
+    - ~/programming/tools/
+    - ~/.aws/
+    - ~/.config/bat/
+    - ~/.config/karabiner/
+
 - link:
-#    ~/.tmux.conf: tmux.conf
-#    ~/.vim: vim
     ~/.zshrc: zshrc
     ~/.zshenv: zshenv
     ~/.p10k.zsh: p10k.zsh
@@ -21,11 +24,6 @@
     ~/.config/karabiner: config/karabiner
     ~/.config/bat/config: config/batconfig
     ~/.aws/config: config/aws_config
-
-- create:
-    - ~/programming/tools/
-    - ~/.aws/
-    - ~/.config/bat/
 
 - shell:
   - command: chmod +x ./setup_ohmyzsh.zsh
