@@ -56,7 +56,7 @@
 - wakatime plugin installation https://github.com/sobolevn/wakatime-zsh-plugin#manual
   https://wakatime.com/terminal#install-zsh
 - explore dotfiles https://github.com/getantibody/antibody#in-the-wild
-- release main v1.0 once it will be ready
+- release main v1.0 once it is ready
 - start moving to fish shell https://fishshell.com/ probably from Nikita
 - ~~global gitignore does not work~~
 
@@ -68,6 +68,13 @@
 
 <!-- TOC --><a name="notes"></a>
 # Notes
+
+## SSH keys
+
+```
+ssh-keygen -t ed25519 -C "todor.ilya@gmail.com"
+pbcopy < ~/.ssh/id_ed25519.pub
+```
 
 <!-- TOC --><a name="installation"></a>
 ## Installation
