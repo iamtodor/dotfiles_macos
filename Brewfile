@@ -1,9 +1,6 @@
 tap "eth-p/software"
-tap "hashicorp/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -21,6 +18,8 @@ brew "less"
 brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Theme for zsh
 brew "powerlevel10k"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
