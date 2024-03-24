@@ -63,8 +63,6 @@ cask "iterm2"
 cask "jetbrains-toolbox"
 # Keyboard customiser
 cask "karabiner-elements"
-# Full TeX Live distribution with GUI applications
-cask "mactex"
 # Native app email client for Gmail
 cask "mimestream"
 # Cloud storage client
