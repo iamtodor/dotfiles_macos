@@ -116,13 +116,13 @@ export PATH="/usr/local/bin/aws_completer:$PATH"
 export HOMEBREW_CASK_OPTS="--no-quarantine --appdir=~/Applications"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f "$HOME/programming/tools/google-cloud-sdk_280/path.zsh.inc" ]; 
-  then . "$HOME/programming/tools/google-cloud-sdk_280/path.zsh.inc"; 
+if [ -f "$HOME/programming/tools/google-cloud-sdk_280/path.zsh.inc" ];
+  then . "$HOME/programming/tools/google-cloud-sdk_280/path.zsh.inc";
 fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f "$HOME/programming/tools/google-cloud-sdk_280/completion.zsh.inc" ]; 
-  then . "$HOME/programming/tools/google-cloud-sdk_280/completion.zsh.inc"; 
+if [ -f "$HOME/programming/tools/google-cloud-sdk_280/completion.zsh.inc" ];
+  then . "$HOME/programming/tools/google-cloud-sdk_280/completion.zsh.inc";
 fi
 # RPROMPT="[%*]"
 
