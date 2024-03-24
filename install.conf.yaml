@@ -19,6 +19,9 @@
     - ~/.config/bat/
     - ~/.config/karabiner/
 
+- shell:
+      - command: mv ~/.zshrc ~/.zshrc_past
+
 - link:
     ~/.zshrc: zshrc
     ~/.zshenv: zshenv
