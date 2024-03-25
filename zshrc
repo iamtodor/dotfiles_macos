@@ -137,14 +137,22 @@ alias base_env="source $HOME/programming/tools/venv/bin/activate"
 alias jl="jupyter lab"
 
 ## general
+# https://github.com/eza-community/eza?tab=readme-ov-file#command-line-options
 alias ls="ls -lAFh"
-alias eza="eza -laFh"
-alias ld='eza -lD'
-alias lf='eza -lF --color=always | grep -v /'
-alias lh='eza -dl .* --group-directories-first'
-alias ll='eza -al --group-directories-first'
-alias lss='eza -alF --color=always --sort=size | grep -v /'
-alias lt='eza -al --sort=modified'
+alias eza_custom="eza --long --all --header --classify"
+# ld — lists only directories (no files)
+alias ld='eza --long --all --header --classify --only-dirs'
+# lf — lists only files (no directories)
+alias lf='eza --long --only-files --header'
+# lh — lists only hidden files (no directories)
+alias lh='eza --list-dirs --long .* --group-directories-first'
+# ll — lists everything with directories first
+alias ll='eza --all --long --group-directories-first'
+# ls — lists only files sorted by size
+alias lss='eza_custom -alF --color=always --sort=size | grep -v /'
+# lt — lists everything sorted by time updated
+alias lt='eza --all --long --header --classify --sort=modified'
+
 alias personal_git_creds='GIT_SSH_COMMAND="ssh -i ~/.ssh/personal"'
 alias usage="du -h -d1"
 alias runp="lsof -i "
