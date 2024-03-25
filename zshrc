@@ -77,6 +77,7 @@ plugins=(
     poetry
     terraform
     virtualenv
+    # https://wakatime.com/terminal
     wakatime
 )
 
