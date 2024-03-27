@@ -28,7 +28,7 @@
     ~/.p10k.zsh: p10k.zsh
     ~/.gitconfig: config/git/gitconfig
     ~/.gitconfig-freshbooks: config/git/gitconfig-freshbooks
-    ~/.gitconfig-gsk: config/git/gitconfig-gsk
+    ~/.gitconfig-fetcherr: config/git/gitconfig-fetcherr
     ~/.gitignore_global: config/git/gitignore_global
     ~/.config/karabiner: config/karabiner
     ~/.config/bat/config: config/batconfig

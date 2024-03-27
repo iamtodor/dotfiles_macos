@@ -18,5 +18,5 @@
 [includeIf "gitdir:~/programming/freshbooks/"]
 	path = ~/.gitconfig-freshbooks
 
-[includeIf "gitdir:~/programming/gsk/"]
-	path = ~/.gitconfig-gsk
+[includeIf "gitdir:~/programming/fetcherr/"]
+	path = ~/.gitconfig-fetcherr

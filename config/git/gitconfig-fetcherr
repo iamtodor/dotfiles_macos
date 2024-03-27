@@ -1,0 +1,8 @@
+[user]
+	name = illia.todorenko
+	email = illia.todorenko@fetcherr.io
+[core]
+	isFetcherr = true
+	sshCommand = ssh -i ~/.ssh/fetcherr
+[pull]
+	rebase = false
