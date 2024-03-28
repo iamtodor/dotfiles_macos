@@ -62,8 +62,6 @@ cask "iina"
 cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
-# Keyboard customiser
-cask "karabiner-elements"
 # Native app email client for Gmail
 cask "mimestream"
 # Cloud storage client
