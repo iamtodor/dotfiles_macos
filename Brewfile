@@ -86,6 +86,8 @@ cask "telegram"
 cask "tomatobar"
 # Open-source BitTorrent client
 cask "transmission"
+# Calling and messaging application focusing on security
+cask "viber"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
