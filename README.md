@@ -1,8 +1,9 @@
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
-
-- [TODO](#todo)
-- [Learning resources](#learning-resources)
-- [Notes](#notes)
+<!-- TOC -->
+* [TODO](#todo)
+  * [Hide toolbar](#hide-toolbar)
+* [Learning resources](#learning-resources)
+* [Notes](#notes)
+  * [SSH keys](#ssh-keys)
   * [Installation](#installation)
   * [Uninstall](#uninstall)
   * [Python](#python)
@@ -10,10 +11,9 @@
   * [VS Code](#vs-code)
   * [Brew](#brew)
   * [Iterm](#iterm)
+  * [Screen capture](#screen-capture)
+<!-- TOC -->
 
-<!-- TOC end -->
-
-<!-- TOC --><a name="todo"></a>
 # TODO
 
 - zsh plugins https://github.com/mattmc3/antidote antigen
@@ -48,7 +48,6 @@
     - https://github.com/webpro/dotfiles/blob/master/.github/workflows/ci.yml
     - https://github.com/anishathalye/dotfiles/blob/master/.github/workflows/build.yml
     - https://tomforb.es/testing-my-dotfiles-with-github-actions/
-- check https://github.com/Mortennn/Dozer vs Bartender
 - ~~replace exa~~
 - ~~add single user brew app installation~~
 - ~~check the flow with brew https://github.com/ivoronin/TomatoBar~~
@@ -59,6 +58,13 @@
 - release main v1.0 once it is ready
 - start moving to fish shell https://fishshell.com/ probably from Nikita
 - ~~global gitignore does not work~~
+
+## Hide toolbar
+
+- https://github.com/dwarvesf/hidden
+- https://github.com/Mortennn/Dozer
+- Bartender
+- iBar
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources
