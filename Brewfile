@@ -56,14 +56,20 @@ cask "font-hack-nerd-font"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Utility to hide menu bar items
+cask "hiddenbar"
 # Free and open-source media player
 cask "iina"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
+# Software for Logitech devices
+cask "logi-options-plus"
 # Native app email client for Gmail
 cask "mimestream"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Cloud storage client
 cask "onedrive"
 # Collaboration platform for API development
@@ -109,7 +115,6 @@ vscode "hashicorp.terraform"
 vscode "innoverio.vscode-dbt-power-user"
 vscode "jebbs.plantuml"
 vscode "johnpapa.vscode-peacock"
-vscode "k--kato.intellij-idea-keybindings"
 vscode "kddejong.vscode-cfn-lint"
 vscode "mathematic.vscode-latex"
 vscode "mechatroner.rainbow-csv"
