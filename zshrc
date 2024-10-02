@@ -200,3 +200,9 @@ if [ -f "$HOME/programming/tools/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME
 
 # The next line enables shell command completion for gcloud.
 if [ -f "$HOME/programming/tools/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/programming/tools/google-cloud-sdk/completion.zsh.inc"; fi
+
+GOOGLE_APPLICATION_CREDENTIALS_PATH="$HOME/.config/gcloud/application_default_credentials.json"
+export GOOGLE_APPLICATION_CREDENTIALS_PATH
+
+# Created by `pipx` on 2024-06-28 11:03:09
+export PATH="$PATH:$HOME/.local/bin"
