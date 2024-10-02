@@ -21,5 +21,9 @@
     "editor.minimap.enabled": false,
     "peacock.affectActivityBar": false,
     "peacock.affectStatusBar": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "editor.wordWrap": "bounded",
+    "git.confirmSync": false,
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "github.copilot.editor.enableAutoCompletions": true
 }
