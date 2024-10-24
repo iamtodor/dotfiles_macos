@@ -169,7 +169,8 @@ alias trail='<<<${(F)path}'
 
 ## docker
 alias dps="docker ps -a"
-alias dup="docker compose up -d"
+alias dup="docker compose up"
+alias dupd="docker compose up -d"
 alias dstop="docker compose stop"
 alias drestart="docker compose restart"
 alias drm="docker-compose rm --all"
