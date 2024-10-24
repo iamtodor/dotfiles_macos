@@ -173,7 +173,7 @@ alias dup="docker compose up"
 alias dupd="docker compose up -d"
 alias dstop="docker compose stop"
 alias drestart="docker compose restart"
-alias drm="docker-compose rm --all"
+alias drm="docker compose rm --all"
 
 ## git
 unalias glog
