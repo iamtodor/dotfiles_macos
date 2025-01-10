@@ -1,8 +1,13 @@
 [user]
 	name = illia.todorenko
 	email = illia.todorenko@fetcherr.io
+	signingkey = ~/.ssh/fetcherr.pub
 [core]
 	isFetcherr = true
 	sshCommand = ssh -i ~/.ssh/fetcherr
 [pull]
 	rebase = false
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
