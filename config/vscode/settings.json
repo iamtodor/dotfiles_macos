@@ -12,7 +12,7 @@
     "git.autofetch": true,
     "window.openFoldersInNewWindow": "on",
     "explorer.confirmDelete": false,
-    "rewrap.autoWrap.enabled": true,
+    "rewrap.autoWrap.enabled": false,
     "rewrap.wrappingColumn": 120,
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.fontFamily": "Fira Code",
@@ -22,7 +22,6 @@
     "peacock.affectActivityBar": false,
     "peacock.affectStatusBar": false,
     "explorer.confirmDragAndDrop": false,
-    "editor.wordWrap": "bounded",
     "git.confirmSync": false,
     "plantuml.server": "https://www.plantuml.com/plantuml",
     "github.copilot.editor.enableAutoCompletions": true
