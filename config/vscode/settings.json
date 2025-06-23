@@ -19,6 +19,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
     "peacock.affectActivityBar": false,
     "peacock.affectStatusBar": false,
     "explorer.confirmDragAndDrop": false,
