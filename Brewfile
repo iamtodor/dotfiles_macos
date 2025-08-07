@@ -43,8 +43,6 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Application uninstaller
 cask "appcleaner"
-# Two-factor authentication software
-cask "authy"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 # App to build and share containerised applications and microservices
