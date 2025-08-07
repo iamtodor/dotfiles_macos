@@ -1,5 +1,4 @@
 tap "eth-p/software"
-tap "homebrew/bundle"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -17,8 +16,6 @@ brew "less"
 brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
 # Theme for zsh
