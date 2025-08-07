@@ -1,4 +1,3 @@
-tap "eth-p/software"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
