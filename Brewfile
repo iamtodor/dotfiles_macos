@@ -29,8 +29,8 @@ brew "prettier"
 brew "pyenv"
 # Terraform version manager inspired by rbenv
 brew "tfenv"
-# Simplified and community-driven man pages
-brew "tldr"
+# Official tldr client written in Rust
+brew "tlrc"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Extremely fast Python package installer and resolver, written in Rust
