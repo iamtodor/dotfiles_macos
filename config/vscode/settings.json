@@ -25,5 +25,6 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.wrapTabs": true,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.preferredDarkColorTheme": "Visual Studio Dark"
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "github.copilot.nextEditSuggestions.enabled": true
 }
