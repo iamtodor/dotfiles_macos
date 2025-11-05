@@ -57,8 +57,6 @@ cask "jetbrains-toolbox"
 cask "jordanbaird-ice"
 # Full TeX Live distribution with GUI applications
 cask "mactex"
-# Native app email client for Gmail
-cask "mimestream"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Cloud storage client
