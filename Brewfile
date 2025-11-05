@@ -53,6 +53,8 @@ cask "iina"
 cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
+# Menu bar manager
+cask "jordanbaird-ice"
 # Full TeX Live distribution with GUI applications
 cask "mactex"
 # Native app email client for Gmail
@@ -87,7 +89,6 @@ mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Pages", id: 409201541
 mas "Skitch", id: 425955336
 mas "Slack", id: 803453959

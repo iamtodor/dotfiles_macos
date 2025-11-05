@@ -65,6 +65,7 @@
 - https://github.com/Mortennn/Dozer
 - Bartender
 - iBar
+- https://github.com/jordanbaird/Ice
 
 <!-- TOC --><a name="learning-resources"></a>
 # Learning resources
