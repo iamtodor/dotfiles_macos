@@ -13,7 +13,7 @@ brew "jq"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
@@ -21,8 +21,6 @@ brew "pkgconf"
 brew "powerlevel10k"
 # Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
 brew "prettier"
-# Python version management
-brew "pyenv"
 # Terraform version manager inspired by rbenv
 brew "tfenv"
 # Official tldr client written in Rust
