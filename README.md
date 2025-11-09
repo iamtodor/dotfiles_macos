@@ -83,6 +83,8 @@ ssh-keygen -t ed25519 -C "todor.ilya@gmail.com"
 pbcopy < ~/.ssh/id_ed25519.pub
 ```
 
+Name it `/Users/illia.todorenko/.ssh/personal`.
+
 <!-- TOC --><a name="installation"></a>
 ## Installation
 
