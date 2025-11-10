@@ -147,6 +147,8 @@ Manually import colorschema from `/misc/iter/solirized_dark_higher_contrast.iter
 
 The profile [import](https://stackoverflow.com/a/23356086/5151861). After import make sure to reload the iterm.
 
+Its not quite clear how to import it properly. If it doesn't work set `Save changes` as `Manually`.
+
 ## Screen capture
 
 - iscreen shoter
