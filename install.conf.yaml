@@ -30,7 +30,7 @@
     ~/.gitconfig-freshbooks: config/git/gitconfig-freshbooks
     ~/.gitconfig-fetcherr: config/git/gitconfig-fetcherr
     ~/.gitignore_global: config/git/gitignore_global
-    ~/.config/karabiner: config/karabiner
+    # ~/.config/karabiner: config/karabiner
     ~/.config/bat/config: config/batconfig
     ~/.aws/config: config/aws_config
     ~/Library/Application Support/Code/User/settings.json: config/vscode/settings.json
