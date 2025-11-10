@@ -187,9 +187,9 @@ alias checkGSK="git config --get core.isGSK || echo false"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+# export PYENV_ROOT="$HOME/.pyenv"
+# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 # export PATH="/Users/it673132/.rd/bin:$PATH"
