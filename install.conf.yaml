@@ -17,7 +17,7 @@
     - ~/programming/tools/
     - ~/.aws/
     - ~/.config/bat/
-    - ~/.config/karabiner/
+    # - ~/.config/karabiner/
 
 - shell:
       - command: mv ~/.zshrc ~/.zshrc_past
