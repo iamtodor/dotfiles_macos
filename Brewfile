@@ -45,6 +45,8 @@ cask "docker-desktop"
 cask "flux-app"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Free and open-source media player
@@ -79,8 +81,12 @@ cask "telegram"
 cask "tomatobar"
 # Open-source BitTorrent client
 cask "transmission"
+# Calling and messaging application focusing on security
+cask "viber"
 # Open-source code editor
 cask "visual-studio-code"
+# Native desktop client for WhatsApp
+cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Amphetamine", id: 937984704
