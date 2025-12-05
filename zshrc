@@ -207,3 +207,4 @@ export GOOGLE_APPLICATION_CREDENTIALS_PATH
 
 # Created by `pipx` on 2024-06-28 11:03:09
 export PATH="$PATH:$HOME/.local/bin"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
