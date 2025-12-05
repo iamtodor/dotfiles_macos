@@ -1,4 +1,6 @@
 tap "romkatv/powerlevel10k"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern, maintained replacement for ls
@@ -11,6 +13,8 @@ brew "htop"
 brew "jq"
 # Pager program similar to more
 brew "less"
+# YAML Parser
+brew "libyaml"
 # Mac App Store command-line interface
 brew "mas"
 # Open-source, cross-platform JavaScript runtime environment
@@ -77,6 +81,8 @@ cask "sourcetree"
 cask "spotify"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# To-do & task list manager
+cask "ticktick"
 # Menu bar pomodoro timer
 cask "tomatobar"
 # Open-source BitTorrent client
