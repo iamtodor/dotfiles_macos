@@ -60,7 +60,7 @@ cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
 # Menu bar manager
-cask "jordanbaird-ice"
+cask "jordanbaird-ice@beta"
 # Full TeX Live distribution with GUI applications
 cask "mactex"
 # Knowledge base that works on top of a local folder of plain text Markdown files
