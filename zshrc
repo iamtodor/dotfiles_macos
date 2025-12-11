@@ -186,11 +186,6 @@ alias checkGSK="git config --get core.isGSK || echo false"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# pyenv
-# export PYENV_ROOT="$HOME/.pyenv"
-# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
-
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 # export PATH="/Users/it673132/.rd/bin:$PATH"
 export PATH="$HOME/.rd/bin:$PATH"
