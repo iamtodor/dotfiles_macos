@@ -83,8 +83,6 @@ cask "spotify"
 cask "telegram"
 # To-do & task list manager
 cask "ticktick"
-# Menu bar pomodoro timer
-cask "tomatobar"
 # Open-source BitTorrent client
 cask "transmission"
 # Calling and messaging application focusing on security
