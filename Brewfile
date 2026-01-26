@@ -17,6 +17,8 @@ brew "less"
 brew "libyaml"
 # Mac App Store command-line interface
 brew "mas"
+# Deep clean and optimize your Mac
+brew "mole"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Package compiler and linker metadata toolkit
