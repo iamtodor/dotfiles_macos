@@ -47,8 +47,6 @@ brew "zsh-syntax-highlighting"
 cask "appcleaner"
 # Web browser focusing on privacy
 cask "brave-browser"
-# Terminal-based AI coding assistant
-cask "claude-code"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 # App to build and share containerised applications and microservices
