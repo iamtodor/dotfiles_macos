@@ -5,6 +5,10 @@ brew "asdf"
 brew "bat"
 # Modern, maintained replacement for ls
 brew "eza"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Interact with Google Gemini AI models from the command-line
+brew "gemini-cli"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Improved top (interactive process viewer)
@@ -19,8 +23,6 @@ brew "libyaml"
 brew "mas"
 # Deep clean and optimize your Mac
 brew "mole"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
 # Theme for zsh
@@ -43,6 +45,10 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Application uninstaller
 cask "appcleaner"
+# Web browser focusing on privacy
+cask "brave-browser"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 # App to build and share containerised applications and microservices
@@ -65,12 +71,16 @@ cask "jetbrains-toolbox"
 cask "jordanbaird-ice@beta"
 # Full TeX Live distribution with GUI applications
 cask "mactex"
+# Multi-platform web browser
+cask "microsoft-edge"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Cloud storage client
 cask "onedrive"
 # Collaboration platform for API development
 cask "postman"
+# Control your tools with a few keystrokes
+cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Screenshot measurement and annotation tool
@@ -104,15 +114,16 @@ mas "Slack", id: 803453959
 mas "The Unarchiver", id: 425424353
 mas "Toggl Track", id: 1291898086
 vscode "adpyke.vscode-sql-formatter"
+vscode "anthropic.claude-code"
 vscode "ccimage.jsonviewer"
 vscode "charliermarsh.ruff"
 vscode "docker.docker"
 vscode "dotjoshjohnson.xml"
 vscode "eamodio.gitlens"
 vscode "emilast.logfilehighlighter"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
+vscode "google.gemini-cli-vscode-ide-companion"
 vscode "grapecity.gc-excelviewer"
 vscode "hashicorp.terraform"
 vscode "jebbs.plantuml"
@@ -140,7 +151,6 @@ vscode "pkief.material-icon-theme"
 vscode "samuelcolvin.jinjahtml"
 vscode "scala-lang.scala"
 vscode "scalameta.metals"
-vscode "stkb.rewrap"
 vscode "streetsidesoftware.avro"
 vscode "tomoki1207.pdf"
 vscode "wakatime.vscode-wakatime"
